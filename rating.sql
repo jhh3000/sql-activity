@@ -31,7 +31,7 @@ insert into Reviewer values(205, 'Chris Jackson');
 insert into Reviewer values(206, 'Elizabeth Thomas');
 insert into Reviewer values(207, 'James Cameron');
 insert into Reviewer values(208, 'Ashley White');
--- TASK B: Add yourself to these data
+-- TASK B: Add yourself to these data using your course nickname
 
 -- Rating data.
 -- The columns are the id of the user, id of the movie, rating, and date of rating.

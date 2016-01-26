@@ -31,17 +31,25 @@ To clone this repo, you'll likely use this command
 git clone https://git.yale.edu/cpsc-113-spring-2016/sql-activity
 ```
 
+or this command if you're on Cloud9 and not on the Yale VPN
+
+```
+git clone https://github.com/yale-cpsc-113/sql-activity
+```
+
+
 ### Step 2
 
-Create a file called `class-members.txt` and populate it with the netids
+Create a file called `class-members.txt` and populate it with the course nicknames
 of the persons in your group. Mine would look like this
 
 ```
-klj39
-foo42
-bar95
+rich-frog
+silly-goat
+boring-snake
 ```
 
+You can find your nickname in the [course profile](https://cpsc113.som.yale.edu/profile).
 Add that file to your repo with `git add class-members.txt` and commit
 it with `git commit`.
 
@@ -73,4 +81,5 @@ After you complete each task, make a git commit with a descriptive message.
 
 After you complete all the tasks, or we stop the activity, push your repo
 up to [git.yale.edu](http://git.yale.edu) in a new public repo. We'll be
-able to see it. This will only be graded for participation.
+able to see it. This will only be graded for participation. If you're working
+on Cloud9, you won't be able to do that, so you can instead push to github.
