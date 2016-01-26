@@ -60,7 +60,7 @@ Complete the tasks. Each time you alter the code, you can run it like
 sqlite3 -echo my-movie-database.db <rating.sql
 ```
 
-The `<` carrat feels the `rating.sql` file into the STDIN file descriptor
+The `<` symbol feeds the `rating.sql` file into the `STDIN` file descriptor
 for the sqlite3 program. It is a common way to get data into a program that
 you would normally type into. The `-echo` option to sqlite will cause the
 program to output the result of all your commands.
