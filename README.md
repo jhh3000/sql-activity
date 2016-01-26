@@ -27,16 +27,20 @@ because it is easy to set up.
 
 To clone this repo, you'll likely use this command
 
-  git clone https://git.yale.edu/cpsc-113-spring-2016/sql-activity
+```
+git clone https://git.yale.edu/cpsc-113-spring-2016/sql-activity
+```
 
 ### Step 2
 
 Create a file called `class-members.txt` and populate it with the netids
 of the persons in your group. Mine would look like this
 
-  klj39
-  foo42
-  bar95
+```
+klj39
+foo42
+bar95
+```
 
 Add that file to your repo with `git add class-members.txt` and commit
 it with `git commit`.
@@ -52,7 +56,9 @@ database.
 
 Complete the tasks. Each time you alter the code, you can run it like
 
-  sqlite3 -echo my-movie-database.db <rating.sql
+```
+sqlite3 -echo my-movie-database.db <rating.sql
+```
 
 The `<` carrat feels the `rating.sql` file into the STDIN file descriptor
 for the sqlite3 program. It is a common way to get data into a program that
